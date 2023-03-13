@@ -1,0 +1,107 @@
+.portfolio{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio h1{
+    font-size: 40px;
+}
+.portfolio ul{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.portfolio ul li{
+    font-style: 15px;
+    margin-right: 5px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.active{
+    background-color: #091D34;
+    color: white;
+}
+.container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.item{
+    width:170px;
+    height:240px;
+    padding:3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    position: relative;
+}
+.item img{
+    width:100%;
+    height: 100%;
+    box-shadow: 3px 3px 6px grey;
+    position: relative;
+}
+.info{
+    position: absolute;
+    background-color: #091D34;
+    opacity: 0.9;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info p{
+    margin-left: 10px;
+}       
+.boxButton{
+    display: flex;
+    justify-content: center;
+}
+.infoButton{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding:2px;
+    width: 100px;
+}
+.buttonBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+.portfolio{
+    position: relative;
+}
+.portfolio a{
+    position: absolute;
+    bottom: 15px;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .item{
+width: 100px;
+height: 170px;
+    }
+    .info p{
+        font-size: 0.7em;
+    }
+    .portfolio a{
+        bottom: 5px;
+    }
+    .container{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .item{
+        width:120px;}
+}
+
+

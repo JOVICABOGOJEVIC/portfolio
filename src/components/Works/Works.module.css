@@ -1,0 +1,154 @@
+.works h1{
+    font-size: 40px;
+    color:white;
+    position:absolute;
+    top:30px;
+}
+.works{
+    background-color: #236AB9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.leftArrow{
+    font-size: 50px;
+    position:absolute;
+    color: white;
+    opacity: 0.6;
+    left: 100px;
+}
+.rightArrow{
+    font-size: 50px;
+    position:absolute;
+    color: white;
+    opacity: 0.6;
+    right:100px;
+}
+.slider{
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s ease-out;
+}
+.container{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    flex:4;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftContainer{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgBox{
+    display: flex;
+    flex-direction: row;
+}
+.imgContainer{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#95bbe7 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 3px;
+}
+.imgContainer img{
+    width: 30px;
+}
+.right{
+    flex:8;
+    height:100%;
+}
+.right img{
+  width: 280px;
+  height: 350px;
+  margin-left: 100px;
+}
+.img{
+    width: 25px;
+}
+.leftContainer h2{
+    font-size: 20px;
+}
+.leftContainer p{
+    font-size: 13px;
+}
+.leftContainer b{
+    font-size: 13px;
+    color:crimson;
+}
+.leftContainer span{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.works{
+    position: relative;
+}
+.works em{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 14px;
+}
+@media screen and (max-width:768px) {
+    .slider{
+        height: 250px;
+    }
+    .item{
+        flex-direction: column;
+    width: 300px;
+    }
+    .imgContainer{
+        width:30px;
+        height: 30px;
+    }
+    .right img{
+        width: 100px;
+        height: 100px;
+        margin-left: 170px;
+        object-fit: cover;
+      }
+      .leftArrow{
+        left: 7px;
+    }
+    .rightArrow{
+        right:7px;
+    }
+    .leftContainer h2{
+        font-size: 14px;
+    }
+    .leftContainer p{
+        font-size: 10px;
+    }
+    .leftContainer b{
+        font-size: 11px;
+    }
+    .leftContainer span{
+        font-size: 10px;
+        font-weight: 400;
+    }}

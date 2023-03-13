@@ -1,0 +1,49 @@
+.topBar{
+    width:100%;
+    background-color: #091D34;
+    color: #F7F2D4;
+    height: 70px;
+    position: fixed;
+    top:0;
+    z-index: 22;
+}
+.wrapper{
+    padding:10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color:#236AB9;
+    margin-right: 40px;
+}
+.itemContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.itemContainer span{
+    margin: 10px;
+}
+.itemContainer span i{
+    margin:3px;
+}
+.icon{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width:768px) {
+   .itemContainer{
+    display: none;
+   }
+}

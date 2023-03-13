@@ -1,0 +1,47 @@
+.myStoreApp{
+    width:365px;
+    margin:10px auto;
+    border:1px solid gray;
+    padding:20px;
+    background-color: white;
+}
+.logo{
+   flex-grow: 5;
+ margin: 10px;
+}
+.boxControl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.instruction{
+   flex-grow: 1;
+  font-size: small;
+    color:teal;
+}
+.exitApp{
+    color:red;
+  font-size: small;
+}
+td{
+    border:1px solid black;
+    text-align: center;
+    width:400px;
+}
+.categoryBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 33%);
+    text-align:center;
+    margin-top: 10px;
+}
+.categoryItem{
+  border:1px solid black;
+  box-shadow: 2px 2px 4px grey;
+}
+.productItem{
+    border:1px solid black;
+    font-size: 0.9em;
+}
+button{
+    width:150px;
+}

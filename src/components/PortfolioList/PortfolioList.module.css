@@ -1,0 +1,16 @@
+.portfolioListActive{
+    background-color: #091D34;
+    color:white;
+}
+.portfolioList{
+    border: 1px solid #091D34;
+    color:#091D34;
+}
+@media screen and (max-width:768px) {
+    .portfolioList{ font-size: 12px;
+}
+.portfolioListActive{
+    font-size: 12px;
+}
+
+}
