@@ -8,7 +8,7 @@ function About() {
             <p>
             I was born in 1984 in Zrenjanin, where I finished my secondary school  
         of Electrical Engineering „Nikola Tesla“ – Zrenjanin.
-         After finishing secondary school, I worked in close contact with people all the time,
+         After finishing school, I worked in close contact with people all the time,
           and I gained excellent communication skills. I have completed several web programming courses, 
           and I have behind me several successfully completed projects. The courses I finished are frontend 
           courses, where I made custom websites using JavaScript, HTML, CSS, as well as in working framework
